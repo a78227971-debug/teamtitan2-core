@@ -13,7 +13,8 @@
   },
   "components": [
     {
-      "file": "main.py",
+      "file": "teamtitan2_alpha.zip",
+      "shipped_as": "archive",
       "mode": "installed",
       "targets": [
         {
