@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "2024-03-01",
+  "schemaVersion": "2026-01-01",
   "modId": "8706e68e-032a-4785-8a54-ff8abc4955dc",
   "launch": {
     "executable": "main.py",
