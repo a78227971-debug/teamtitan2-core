@@ -6,18 +6,26 @@
     "mode": "installed"
   },
   "dependencies": {
-    "runtime": "vcredist_2015_2022_x64",
     "required_games": [
       "titanfall_2",
       "team_fortress_2"
     ]
   },
+  "components": [
+    {
+      "file": "teamtitan2_alpha.zip",
+      "shipped_as": "archive",
+      "mode": "installed",
+      "targets": [
+        {
+          "game": "titanfall_2",
+          "path": "."
+        }
+      ]
+    }
+  ],
   "content": {
     "maps": ["2fort", "badwater", "upward"],
-    "classes": "all_9_classes",
-    "features": {
-      "fix_0xc000007b": true,
-      "monarch_medic": true
-    }
+    "classes": "all_9_classes"
   }
 }
