@@ -1,0 +1,23 @@
+{
+  "format_version": "1.0.0",
+  "mod_id": "8706e68e-032a-4785-8a54-ff8abc4955dc",
+  "launch": {
+    "executable": "main.py",
+    "mode": "installed"
+  },
+  "dependencies": {
+    "runtime": "vcredist_2015_2022_x64",
+    "required_games": [
+      "titanfall_2",
+      "team_fortress_2"
+    ]
+  },
+  "content": {
+    "maps": ["2fort", "badwater", "upward"],
+    "classes": "all_9_classes",
+    "features": {
+      "fix_0xc000007b": true,
+      "monarch_medic": true
+    }
+  }
+}
